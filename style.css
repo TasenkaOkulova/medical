@@ -1,4 +1,6 @@
-from* {
+from
+
+    * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -48,7 +50,7 @@ body, html {
 }
 
 .hr {
-    background-color: #730AAF;
+    background-color: #D9D9D9;
     height: 1px;
     border: 0;
     width: 100%;
@@ -90,15 +92,15 @@ body, html {
 }
 
 .day-today {
-    border: 1px solid #730AAF;
+    border: 1px solid #16A9D8;
 }
 
 .selected {
-    background-color: #730AAF(96, 215, 253, 0.75);
+    background-color: rgba(96, 215, 253, 0.75);
 }
 
 .day-holiday {
-    color: #730AAF (0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .time-grid {
@@ -115,7 +117,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #730AAF;
+    border: 1px solid #D9D9D9;
     cursor: pointer;
 }
 
@@ -124,6 +126,21 @@ body, html {
     font-weight: 400;
 }
 
+.button {
+    background-color: #1C2A3A;
+    height: 49px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.button-text {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
 .button {
     background-color: #730AAF;
     height: 49px;
