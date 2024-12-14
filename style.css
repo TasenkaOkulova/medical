@@ -127,21 +127,6 @@ body, html {
 }
 
 .button {
-    background-color: #1C2A3A;
-    height: 49px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 24px;
-}
-
-.button-text {
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-}
-.button {
     background-color: #730AAF;
     height: 49px;
     width: 100%;
