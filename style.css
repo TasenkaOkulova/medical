@@ -94,11 +94,11 @@ body, html {
 }
 
 .selected {
-    background-color: rgba(96, 215, 253, 0.75);
+    background-color: #730AAF(96, 215, 253, 0.75);
 }
 
 .day-holiday {
-    color: rgba(0, 0, 0, 0.5);
+    color: #730AAF (0, 0, 0, 0.5);
 }
 
 .time-grid {
